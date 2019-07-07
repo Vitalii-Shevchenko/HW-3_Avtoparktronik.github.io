@@ -1,0 +1,441 @@
+@media screen and (max-width: 900px) {
+  .logo {
+    margin-left: 20%;
+  }
+
+  .logo h2 {
+    font-size: 19px;
+  }
+
+  .logo p {
+    font-size: 9px;
+  }
+
+  .callBack {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 105px;
+  background: #ffdc00;
+  font-family: HelveticaNeue, sans-serif;
+}
+
+.logo {
+  margin-left: 20%;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 2.4px;
+  line-height: 33px;
+}
+.logo h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.logo h2 span {
+  font-weight: 100;
+}
+.logo p {
+  font-size: 14px;
+}
+
+.callBack {
+  margin-right: 20%;
+  padding-top: 18px;
+  text-align: right;
+}
+.callBack p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 23px;
+}
+.callBack a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  background: #333333;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+main {
+  font-family: HelveticaNeue, sans-serif;
+}
+
+.orderList {
+  display: flex;
+  height: 810px;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/primaryImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.orderParktronik {
+  margin-left: 20%;
+}
+.orderParktronik .buttonOrder {
+  text-align: left;
+}
+
+.sentence h1 {
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: white;
+}
+.sentence h1 span {
+  color: #ffdc00;
+}
+.sentence p {
+  margin-top: 50px;
+  font-size: 24px;
+  color: white;
+}
+.sentence p span {
+  color: #ffdc00;
+  font-weight: bold;
+}
+
+.timer {
+  margin-top: 40px;
+}
+.timer p span {
+  margin-right: 5px;
+  font-size: 39px;
+  color: white;
+  background: #333333;
+  padding: 15px;
+  border-radius: 10px;
+}
+.timer p img {
+  position: relative;
+  top: 10px;
+}
+
+.buttonOrder {
+  margin-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.buttonOrder a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.92px;
+  color: #333333;
+  background: #ffdc00;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 0px 5px 0px #b9a000;
+  padding: 15px 65px;
+}
+
+.viewParktronik {
+  margin-top: 160px;
+  margin-right: 20%;
+}
+.viewParktronik .imgSale {
+  text-align: right;
+}
+.viewParktronik .imgViewParktronik {
+  text-align: center;
+}
+
+.subTitle h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 50px;
+}
+.subTitle h3 span {
+  color: #ffdc00;
+}
+.subTitle .border-bottom {
+  border-bottom: 1px solid #ffdc00;
+  width: 15%;
+  margin: 36px auto;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ffdc00;
+  width: 3%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+
+.groupSpecification {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.groupSpecification div {
+  width: 33%;
+  padding-right: 20px;
+}
+.groupSpecification .imgViewParktronik {
+  text-align: center;
+  margin-top: 40px;
+}
+.groupSpecification ul {
+  list-style-type: none;
+}
+.groupSpecification ul li {
+  font-size: 14px;
+  line-height: 28px;
+  font-style: italic;
+  color: #9a9a9a;
+}
+.groupSpecification ul li:before {
+  content: "-";
+  position: absolute;
+  margin-left: -1.1em;
+}
+.groupSpecification h4 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+  margin-top: 40px;
+}
+.groupSpecification p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #9a9a9a;
+  font-style: italic;
+}
+
+.advantagesInfo {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.advantagesInfo div {
+  text-align: center;
+  width: 25%;
+}
+.advantagesInfo div p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffdc00;
+}
+.advantagesInfo div span {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+.video {
+  text-align: center;
+}
+
+.economy {
+  display: flex;
+  justify-content: space-between;
+}
+.economy .howGirlsParking {
+  margin-left: 20%;
+  width: 50%;
+}
+.economy .howGirlsParking h5 {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.economy .howGirlsParking p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.economy .howGirlsParking p span {
+  color: #ffdc00;
+}
+.economy .howGirlsParking .crachImg {
+  display: flex;
+  margin-top: 20px;
+}
+.economy .howGirlsParking .crachImg div {
+  margin-right: 25px;
+}
+.economy .priceParktronik {
+  margin-right: 20%;
+  width: 50%;
+}
+.economy .priceParktronik h5 {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.economy .priceParktronik p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.economy .priceParktronik p span {
+  color: #ffdc00;
+}
+.economy .priceParktronik .plus {
+  text-align: left;
+  font-size: 78px;
+  font-weight: bold;
+  color: #ffdc00;
+  position: absolute;
+}
+
+.shippinngAndWarrrantly {
+  margin: 0 20%;
+}
+
+.warrantly {
+  line-height: 24px;
+}
+.warrantly p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 30px;
+}
+.warrantly ul {
+  margin-left: 16px;
+  padding-bottom: 30px;
+}
+.warrantly ul li {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.warrantly span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.paymentWarrantly {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.paymentWarrantly div {
+  text-align: center;
+}
+.paymentWarrantly div p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #ffdc00;
+}
+
+.deliveryAndPayment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.deliveryAndPayment .deliveriRussia {
+  width: 40%;
+}
+.deliveryAndPayment .deliveriRussia p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 20px;
+}
+.deliveryAndPayment .deliveriRussia ul {
+  margin-left: 15px;
+}
+.deliveryAndPayment .deliveriRussia ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+  padding-left: 15px;
+}
+.deliveryAndPayment .deliveriRussia ul li span {
+  font-weight: bold;
+}
+
+.checkout {
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderImg {
+  width: 50%;
+}
+.orderImg .plus {
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffdc00;
+}
+.orderImg .sale {
+  position: absolute;
+}
+.orderImg .sale img {
+  position: relative;
+  left: 242px;
+  top: -125px;
+}
+
+.order {
+  width: 50%;
+  text-align: center;
+}
+.order input {
+  width: 50%;
+  height: 45px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  margin-top: 15px;
+}
+.order .timer p span {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  background: #333333;
+  padding: 8px 7px;
+  border-radius: 7px;
+}
+.order .buttonOrder a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.92px;
+  color: #333333;
+  background: #ffdc00;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px 65px;
+}
+
+/*# sourceMappingURL=style.css.map */
